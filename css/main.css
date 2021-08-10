@@ -1,0 +1,198 @@
+body {
+	font-family: verdana;
+
+}
+.container{
+	
+	width:90%;
+	margin: 0 auto;
+	padding-top:30px;
+
+}
+
+fieldset{
+	border:none;
+}
+
+legend{
+	
+	margin-bottom:0px;
+}
+
+a {
+	text-decoration:none;
+}
+
+.floatR{
+	
+	float:right;
+}
+
+.floatL{
+	
+	float:left;
+}
+
+.flex{
+	
+	display:flex;
+	
+}
+
+.justifySpaceBetween{
+	
+	justify-content:space-between;
+}
+
+.clearer{
+	
+	clear:both;
+	
+}
+/********** ÜBERSCHRIFTEN **********/
+.ueberschrift{
+	
+	color: #8B0000;
+}
+.ueberschriftGrey{
+	
+	color:lightgrey;
+	font-weight:bold;
+}
+
+.ueberschriftDarkgrey{
+	
+	color:grey;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+/********** INDEX **********/
+.categoryBlock{
+	
+
+border:1px solid lightgrey;
+border-radius:10px;
+width:30%;
+text-align:center;
+
+}
+
+.entrysBlock{
+	
+border:1px solid lightgrey;
+padding-bottom:60px;
+border-radius:10px;
+width:60%;
+
+	
+}
+
+.entryImg{
+	
+	height: 200px;
+	
+}
+
+
+.siteJumpLinks{
+	
+	color: #8B0000;
+	padding-bottom: 5px;
+	font-weight:bold;
+	
+}
+
+/********** Category Link auf der index.php **********/
+div.categoryBlock a{
+	color:lightgrey;
+	padding:10px;
+	display:inline-block;
+	font-weight:bold;
+	margin:15px;
+
+}
+
+div.categoryBlock a:hover{
+	
+	border:2px solid #8B0000;
+	border-radius:5px;
+	color: #8B0000;
+	font-weight:bold;
+	
+	
+}
+
+/********** DASHBOARD **********/
+
+
+.dashboardInput{
+	
+	width: 100%;
+	border:1px solid lightgrey;
+	padding:5px;
+	border-radius:5px;
+	color:grey;
+	outline: none;
+}
+
+
+.dashboardForm{
+	
+	width:40%;
+}
+
+.dashboardTextInput{
+	
+	height:300px;
+	outline: none;
+}
+
+
+.dashboardSubmitButton {
+	
+	height:50px;
+	color:grey;
+	font-weight:bold;
+	outline: none;
+}
+
+.dashboardSubmitButton:hover{
+	
+	background-color:lightblue;
+	color:white;
+	
+}
+
+/********** USER MESSAGES STYLES **********/
+.error {
+	color: red;
+	font-size:12px;
+}
+.success {
+	color: green;
+	font-size:12px;
+}
+.info {
+	color: darkorange;
+	font-size:12px;
+}
+.marker {
+	color: darkred;
+	font-size: 1.1em;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+
+    
+.deleteEntryButton{
+    
+        height:30px;
+        width:80px;
+	border:none;
+	padding:5px;
+	background:red;
+	outline: none;
+       
+}
